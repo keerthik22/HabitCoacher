@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #1e293b; /* Dark slate for a modern backdrop */
+  color: #f1f5f9; /* Light text for contrast */
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter, transform;
+  transition: filter 300ms, transform 300ms ease-in-out;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 1em #facc15); /* Vibrant golden glow */
+  transform: scale(1.2) rotate(5deg); /* Adds an interactive effect */
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 1em #38bdf8); /* Bright cyan glow for React */
+}
+
+.card {
+  padding: 2em;
+  background: linear-gradient(145deg, #6ee7b7, #3b82f6); /*Vibrant gradient */
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  transition: transform 300ms, box-shadow 300ms;
+}
+.card:hover {
+  transform: translateY(-10px); /* Lift effect on hover */
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+}
+
+.read-the-docs {
+  color: #60a5fa; /* Calming blue for a professional touch */
+  font-weight: 700;
+  text-decoration: underline;
+}

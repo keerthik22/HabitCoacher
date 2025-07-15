@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0f172a; /* Deep navy for a sleek interface */
+  color: #f8fafc; /* Bright white text for readability */
+  margin: 0;
+  padding: 0;
+}
+
+@layer components {
+  .habit-card {
+    @apply bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-500 text-white rounded-lg shadow-md p-6 transition-all duration-300 hover:shadow-2xl transform hover:translate-y-[-5px];
+  }
+  
+  .btn-primary {
+    @apply bg-gradient-to-r from-purple-600 via-pink-500 to-red-400 text-white font-bold py-2 px-6 rounded-full shadow-lg hover:opacity-80 transition duration-300;
+  }
+  
+  .btn-secondary {
+    @apply bg-gradient-to-r from-green-400 via-teal-500 to-cyan-500 text-white font-bold py-2 px-6 rounded-lg shadow-lg hover:opacity-90 transition-all;
+  }
+}
