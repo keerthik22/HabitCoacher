@@ -1,12 +1,30 @@
-# React + Vite
+# 📈 HabitCoacher
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**HabitCoacher** is a powerful habit tracking web application built with **React + Vite** that helps you build better routines and stay motivated.
 
-Currently, two official plugins are available:
+Set your goals, track your habits, and get reminded — daily, weekly, or monthly — with motivational messages to keep you on track.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ➕ Add & manage custom habits
+- 🔔 Smart notifications based on your schedule:
+  - Daily
+  - Weekly
+  - Monthly
+- 💬 **Motivational Quote Display** on each visit
+- ⚡ Lightning-fast UI with React + Vite
+- 🌙 Dark/light mode (optional if implemented)
+- 🔄 Hot Module Reloading with Vite
+
+---
+
+## 🖼️ Preview
+
+>
+<img width="1826" height="882" alt="Screenshot 2025-07-15 153423" src="https://github.com/user-attachments/assets/e95b4456-6da1-4cd7-91ee-b30e0f7b3b60" />
+
+
+
+<img width="1601" height="760" alt="Screenshot 2025-07-15 153525" src="https://github.com/user-attachments/assets/2f42811f-9fb3-4187-aade-793e7cc5afcd" />
